@@ -1,7 +1,7 @@
-import Foo from 'Foo.html';
-import options from 'options';
+import Foo from './Foo.html';
+import options from './options';
 
-export default {
+export {
   Foo,
   options
 }
