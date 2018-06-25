@@ -1,5 +1,7 @@
-const Foo = require('./Foo.html');
+import Foo from 'Foo.html';
+import options from 'options';
 
-module.exports = {
-    Foo
+export default {
+  Foo,
+  options
 }
