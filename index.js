@@ -1,5 +1,5 @@
-const Foo = require('./Foo.html');
+import Foo from './Foo.html';
 
-module.exports = {
+export {
     Foo
 }
